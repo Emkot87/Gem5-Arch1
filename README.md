@@ -16,11 +16,12 @@ host_inst_rate is the simulator instruction rate and its value was 19577
 
 
 ### CPU types :  
-* BaseSimpleCPU
-* AtomicSimpleCPU
-* TimingSimpleCPU
+* BaseSimpleCPU : basis of AtomicSimple and TimingSimple can't run on each own
+* AtomicSimpleCPU : Derived from BaseSimple, atomic memory accesses
+* TimingSimpleCPU : Derived from BaseSimple, timing memory accesses
 * O3CPU
-* TraceCPU
-* Minor CPU Model
+* TraceCPU : fast version of O3 cpu model for memory-system performance exploration
+* Minor CPU Model : Fixed pipeline but configurable data structures and execute behavior
 
 
+Source: [gem5 cpu models](www.gem5.org/documentation/general_docs/cpu_models)
