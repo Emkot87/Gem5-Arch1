@@ -1,6 +1,7 @@
 # Gem5-Arch1  
 ### Info about System
-* 1Ghz @ line 100  
+* Minor CPU model
+* 1Ghz at 3,3 V at line 100  
 * ddr3 1600 8X8  
 * 2 channel memmory  
 * 2gb memmory  
