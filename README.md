@@ -3,14 +3,14 @@
 * Minor CPU model
 * 1Ghz at 3,3 V at line 100  
 * ddr3 1600 8X8  
-* 2 channel memmory  DDR4_2400_16x4
+* 2 channel memmory
 * 2gb memmory  
 
 We can change the cpu frequency with --cpu-freq
 
 l1 instruction cache l1data cache walk cach l2 cache 
 
-#### Info about stats.txtDDR4_2400_16x4
+#### Info about stats.txt
 sim_seconds is Number of seconds simulated and its value was 0.000035  
 sim_insts is Number of instructions simulated and its value was 5027  
 host_inst_rate is the simulator instruction rate and its value was 19577  
