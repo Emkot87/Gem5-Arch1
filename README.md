@@ -3,14 +3,14 @@
 * Minor CPU model
 * 1Ghz at 3,3 V at line 100  
 * ddr3 1600 8X8  
-* 2 channel memmory  
+* 2 channel memmory  DDR4_2400_16x4
 * 2gb memmory  
 
 We can change the cpu frequency with --cpu-freq
 
 l1 instruction cache l1data cache walk cach l2 cache 
 
-#### Info about stats.txt
+#### Info about stats.txtDDR4_2400_16x4
 sim_seconds is Number of seconds simulated and its value was 0.000035  
 sim_insts is Number of instructions simulated and its value was 5027  
 host_inst_rate is the simulator instruction rate and its value was 19577  
@@ -43,7 +43,6 @@ TimingSimpleCPU with DDR4_2400_16x4 memory : 0.000039
 CPUs don't seem to be effected by the change of memory type.
 The MinorCPU is slightly faster but it is within margin of error  
 
-DDR4_2400_16x4
 
 
 Source: [gem5 cpu models](www.gem5.org/documentation/general_docs/cpu_models)
