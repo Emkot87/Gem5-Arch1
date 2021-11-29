@@ -38,10 +38,10 @@ TimingSimpleCPU at 10Ghz : 0.000028
 TimingSimpleCPU changes more with frequency
 
 MinorCPU with DDR4_2400_16x4 memory : 0.000033
-TimingSimpleCPU with DDR4_2400_16x4 memory : 0.000039
+TimingSimpleCPU with DDR4_2400_16x4 memory : 0.000039  
 
-CPUs don't seem to be effected by the change of memory type.
-The MinorCPU is slightly faster but it is within margin of error  
+CPUs don't seem to be effected by the change of memory type.  
+The MinorCPU is slightly faster but it is within margin of error    
 
 
 
