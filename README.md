@@ -1,4 +1,6 @@
 # Gem5-Arch1  
+Κωτούλας Εμμανουήλ 9697  
+Ελευθεριάδης Ανδρέας Ευστάθιος 9649  
 ### Info about System
 * Minor CPU model
 * 1Ghz at 3,3 V at line 100  
