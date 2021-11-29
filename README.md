@@ -6,6 +6,7 @@
 * 2 channel memmory  
 * 2gb memmory  
 
+We can change the cpu frequency with --cpu-freq
 
 l1 instruction cache l1data cache walk cach l2 cache 
 
@@ -14,6 +15,7 @@ sim_seconds is Number of seconds simulated and its value was 0.000035
 sim_insts is Number of instructions simulated and its value was 5027  
 host_inst_rate is the simulator instruction rate and its value was 19577  
 
+CPI = 6.316
 
 
 ### CPU types :  
