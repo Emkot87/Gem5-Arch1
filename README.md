@@ -17,9 +17,9 @@ sim_seconds is Number of seconds simulated and its value was 0.000035
 sim_insts is Number of instructions simulated and its value was 5027  
 host_inst_rate is the simulator instruction rate and its value was 19577  
 
-IL1.miss 327  
-DL1.miss 177  
-L2.miss 424  
+IL1.miss (system.cpu.icache.overall_misses::total) 327  
+DL1.miss (system.cpu.dcache.overall_misses::total) 177  
+L2.miss (system.l2.overall_misses::total) 424  
 CPI = 6.316
 
 
