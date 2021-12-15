@@ -34,17 +34,20 @@ CPI = 6.316
 MinorCPU : 0.000034  
 TimingSimpleCPU : 0.000039  
 
-MinorCPU at 10Ghz : 0.000029
+MinorCPU at 10Ghz : 0.000029  
 TimingSimpleCPU at 10Ghz : 0.000028
 
 TimingSimpleCPU changes more with frequency
 
-MinorCPU with DDR4_2400_16x4 memory : 0.000033
+
+MinorCPU with DDR4_2400_16x4 memory : 0.000033  
 TimingSimpleCPU with DDR4_2400_16x4 memory : 0.000039  
 
-CPUs don't seem to be effected by the change of memory type.  
+CPUs don't seem to be effected by the change of memory type.
 The MinorCPU is slightly faster but it is within margin of error    
 
 
+Due to a problem we had because of a typo in the assignment we couldn't complete the exercise in our desktops, thus finishing it in the lab.
+As a result we dont have the accompanying files uploaded on the repo.  
 
 Source: [gem5 cpu models](www.gem5.org/documentation/general_docs/cpu_models)
